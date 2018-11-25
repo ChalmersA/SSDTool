@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="lib/log4j-1.2.15.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jcl-over-slf4j-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/javacsv.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/bsh-core-2.0b4.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/commons-beanutils.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/commons-collections-3.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/commons-digester.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/commons-logging.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/IKExpression2.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jacob.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/javassist-3.11.0.GA.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jce.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jcommon-1.0.20.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jfreechart-1.0.16-swt.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jfreechart-1.0.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/JNative.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jsse.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jzlib-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/ognl-3.0.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/oscore.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/sunjce_provider.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/xercesImpl.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/xml-apis.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jna.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/concurrent.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/fastjson-1.2.6.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry exported="true" kind="lib" path="lib/ant.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/commons-lang-2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/mail.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

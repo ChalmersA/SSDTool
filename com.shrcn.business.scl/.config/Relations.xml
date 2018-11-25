@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 内外部虚端子描述信息支持变量 ${d}，同时也支持变量重新赋值，  -->
+<!-- 例如：#set($d=$d+1)支路${d}_C相启动失灵开入 -->
+<Relations>
+	<!-- 220kV -->
+	<IED type="PMD22" desc="220母线虚端子">
+		<Inputs iedType="PE_22" desc="母联" ldInst="PIGO" datSet="dsGoose" total="1">
+			<ExtRef outAddr="启动失灵" intAddr="母联_三相启动失灵开入"/>
+		</Inputs>
+		<Inputs iedType="PF_22" desc="分段" ldInst="PIGO" datSet="dsGoose" total="1" maxN="2"><!-- maxN为2表示最多可接入2台分段 -->
+			<ExtRef outAddr="启动失灵" intAddr="分段${d}_三相启动失灵开入"/><!-- intAddr中的${d}将被外部装置编号替换 -->
+		</Inputs>
+		<Inputs iedType="PMD22" desc="" ldInst="PIGO" datSet="dsGoose" total="2">
+			<ExtRef outAddr="分段1_启动失灵" intAddr="分段1_对侧失灵开入"/>
+			<ExtRef outAddr="分段2_启动失灵" intAddr="分段2_对侧失灵开入"/>
+		</Inputs>
+		<Inputs iedType="PT_22" desc="变压器" ldInst="PIGO" datSet="dsGoose" total="1" maxN="4">
+			<ExtRef outAddr="启动高压1侧断路器失灵" intAddr="主变${d}_三相启动失灵开入${n}"/>
+		</Inputs>
+		<Inputs iedType="PL_22" desc="线路" ldInst="PIGO" datSet="dsGoose" total="3" maxN="28">
+			<ExtRef outAddr="启动A相失灵" intAddr="支路${d}_A相启动失灵开入"/>
+			<ExtRef outAddr="启动B相失灵" intAddr="支路${d}_B相启动失灵开入"/>
+			<ExtRef outAddr="启动C相失灵" intAddr="支路${d}_C相启动失灵开入"/>
+		</Inputs>
+	</IED>
+	<IED type="PT_22" desc="220变压器虚端子">
+		<Inputs iedType="PMD22" desc="母线" ldInst="PIGO" datSet="dsGoose" total="1">
+			<ExtRef outAddr="主变${d}_失灵联跳变压器" intAddr="高压1侧失灵联跳开入"/><!-- outAddr中的${d}将被当前装置编号替换 -->
+		</Inputs>
+		<Inputs iedType="PMD11" desc="母线" ldInst="PIGO" datSet="dsGoose" total="1">
+			<ExtRef outAddr="主变${d}_失灵联跳变压器" intAddr="中压侧失灵联跳开入"/>
+		</Inputs>
+	</IED>
+	<IED type="PL_22" desc="220线路虚端子">
+		<Inputs iedType="PMD22" desc="母线" ldInst="PIGO" datSet="dsGoose" total="1" groupMax="7">
+			<ExtRef outAddr="支路${d}_保护跳闸" intAddr="闭锁重合闸-1"/>
+			<ExtRef outAddr="支路${d}_保护跳闸" intAddr="其它保护动作-1"/>
+		</Inputs>
+	</IED>
+	<IED type="PE_22" desc="220母联虚端子">
+		<Inputs iedType="PT_22" desc="变压器" ldInst="PIGO" datSet="dsGoose" total="1" maxN="6">
+			<ExtRef outAddr="跳高压侧母联1" intAddr="保护跳闸-${d}"/>
+		</Inputs>
+	</IED>
+	<!-- 110kV -->
+	<IED type="PMD11" desc="110母线虚端子">
+		<Inputs iedType="PE_11" desc="母联" ldInst="PIGO" datSet="dsGoose" total="1">
+			<ExtRef outAddr="启动失灵" intAddr="母联_三相启动失灵开入"/>
+		</Inputs>
+		<Inputs iedType="PF_11" desc="分段" ldInst="PIGO" datSet="dsGoose" total="1" maxN="2">
+			<ExtRef outAddr="启动失灵" intAddr="分段${d}_三相启动失灵开入"/>
+		</Inputs>
+		<Inputs iedType="PMD11" desc="母线" ldInst="PIGO" datSet="dsGoose" total="2">
+			<ExtRef outAddr="分段1_启动失灵" intAddr="分段1_对侧失灵开入"/>
+			<ExtRef outAddr="分段2_启动失灵" intAddr="分段2_对侧失灵开入"/>
+		</Inputs>
+		<Inputs iedType="PT_11" desc="变压器" ldInst="PIGO" datSet="dsGoose" total="1" maxN="4">
+			<ExtRef outAddr="启动高压侧失灵" intAddr="主变${d}_三相启动失灵开入${n}"/>
+		</Inputs>
+		<Inputs iedType="PL_11" desc="线路" ldInst="PIGO" datSet="dsGoose" total="3" maxN="28">			
+			<ExtRef outAddr="启动失灵" intAddr="支路${d}_三相启动失灵开入"/>
+		</Inputs>
+	</IED>
+	<IED type="PT_11" desc="110变压器虚端子">
+		<Inputs iedType="PMA11" desc="母线" ldInst="PIGO" datSet="dsGoose" total="1">
+			<ExtRef outAddr="主变${d}_失灵联跳变压器" intAddr="高压侧失灵联跳开入"/>
+		</Inputs>
+		<Inputs iedType="PMD11" desc="母线" ldInst="PIGO" datSet="dsGoose" total="1">
+			<ExtRef outAddr="主变${d}_失灵联跳变压器" intAddr="高压侧失灵联跳开入"/>
+		</Inputs>
+	</IED>
+	<IED type="PL_11" desc="110线路虚端子">
+		<Inputs iedType="PMD11" desc="母线" ldInst="PIGO" datSet="dsGoose" total="1" groupMax="7">
+			<ExtRef outAddr="支路${d}_保护跳闸" intAddr="闭锁重合闸-1"/>
+			<ExtRef outAddr="支路${d}_保护跳闸" intAddr="其它保护动作-1"/>
+		</Inputs>
+	</IED>
+	<IED type="PE_11" desc="110母联虚端子">
+		<Inputs iedType="PT_11" desc="变压器" ldInst="PIGO" datSet="dsGoose" total="1" maxN="6">
+			<ExtRef outAddr="跳中压侧分段" intAddr="保护跳闸-${d}"/>
+		</Inputs>
+	</IED>
+</Relations>

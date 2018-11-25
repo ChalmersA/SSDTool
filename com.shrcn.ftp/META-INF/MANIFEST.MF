@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ftp Plug-in
+Bundle-SymbolicName: com.shrcn.ftp;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: com.shrcn.ftp.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.shrcn.found.common;bundle-version="1.0.0",
+ com.shrcn.found.ui;bundle-version="1.0.0",
+ com.shrcn.business.scl;bundle-version="1.0.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: com.shrcn.ftp,
+ com.shrcn.ftp.burn,
+ com.shrcn.ftp.core,
+ com.shrcn.ftp.net,
+ com.shrcn.ftp.ui
+Bundle-ClassPath: lib/ftp.jar,
+ .

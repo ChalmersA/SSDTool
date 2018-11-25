@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drawing>
+    <figures>
+        <g id="0">
+            <children>
+                <g id="1">
+                    <children>
+                        <e id="2" x="436.25" y="157.75" w="22.25" h="22">
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <color rgba="#ff000000"/>
+                                </strokeColor>
+                            </a>
+                        </e>
+                        <r id="3" x="423.25" y="139" w="48" h="48">
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <textColor>
+                                    <null/>
+                                </textColor>
+                                <strokeColor>
+                                    <null/>
+                                </strokeColor>
+                            </a>
+                        </r>
+                        <l id="4">
+                            <points>
+                                <p colinear="true" x="448" y="179.25"/>
+                                <p colinear="true" x="448" y="187.25"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <textColor>
+                                    <null/>
+                                </textColor>
+                                <strokeColor>
+                                    <color rgba="#ff000000"/>
+                                </strokeColor>
+                            </a>
+                        </l>
+                        <e id="5" x="436.25" y="146.5" w="22.25" h="22.25">
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <color rgba="#ff000000"/>
+                                </strokeColor>
+                            </a>
+                        </e>
+                        <l id="6">
+                            <points>
+                                <p colinear="true" x="448" y="139.5"/>
+                                <p colinear="true" x="448" y="146.75"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <textColor>
+                                    <null/>
+                                </textColor>
+                                <strokeColor>
+                                    <color rgba="#ff000000"/>
+                                </strokeColor>
+                            </a>
+                        </l>
+                    </children>
+                </g>
+            </children>
+         </g>       
+  </figures>  
+</drawing>

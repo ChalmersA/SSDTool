@@ -1,0 +1,92 @@
+<drawing>
+    <figures>
+        <equipment id="0">
+            <children>
+                <g id="1">
+                    <children>
+                        <r id="2" x="#set($x1 = $x + 0.00)$x1" y="#set($y1 = $y + 0.00)$y1" w="47" h="48">
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <null/>
+                                </strokeColor>
+                            </a>
+                        </r>
+                        <g id="3">
+                            <children>
+                                <l id="4" isVisible="true" name="">
+                                    <points>
+                                        <p colinear="true" x="#set($x1 = $x + 13)$x1" y="#set($y1 = $y + 18.00)$y1"/>
+                                        <p colinear="true" x="#set($x1 = $x + 35)$x1" y="#set($y1 = $y + 18.00)$y1"/>
+                                    </points>
+                                    <a>
+                                        <strokeWidth>
+                                            <double>2</double>
+                                        </strokeWidth>
+                                    </a>
+                                </l>
+                                <l id="5" isVisible="true" name="">
+                                    <points>
+                                        <p colinear="true" x="#set($x1 = $x + 13)$x1" y="#set($y1 = $y + 29.00)$y1"/>
+                                        <p colinear="true" x="#set($x1 = $x + 35)$x1" y="#set($y1 = $y + 29.00)$y1"/>
+                                    </points>
+                                    <a>
+                                        <strokeWidth>
+                                            <double>2</double>
+                                        </strokeWidth>
+                                    </a>
+                                </l>
+                                <l id="6" isVisible="true" name="">
+                                    <points>
+                                        <p colinear="true" x="#set($x1 = $x + 23.50)$x1" y="#set($y1 = $y + 29.00)$y1"/>
+                                        <p colinear="true" x="#set($x1 = $x + 23.50)$x1" y="#set($y1 = $y + 48.00)$y1"/>
+                                    </points>
+                                    <a>
+                                        <strokeWidth>
+                                            <double>1</double>
+                                        </strokeWidth>
+                                    </a>
+                                </l>
+                                <l id="7" isVisible="true" name="">
+                                    <points>
+                                        <p colinear="true" x="#set($x1 = $x + 23.50)$x1" y="#set($y1 = $y + 0.00)$y1"/>
+                                        <p colinear="true" x="#set($x1 = $x + 23.50)$x1" y="#set($y1 = $y + 18.00)$y1"/>
+                                    </points>
+                                    <a>
+                                        <strokeWidth>
+                                            <double>1</double>
+                                        </strokeWidth>
+                                    </a>
+                                </l>
+                            </children>
+                        </g>
+                    </children>
+                </g>
+            </children>
+			<a>
+				<type>
+					<string>CAP</string>
+				</type>
+				<mType>
+					<string>CAP</string>
+				</mType>
+			</a>
+            <Anchor>
+                <d0 relativeWidth="1" relativeHeight="0"/>
+                <d1 relativeWidth="1" relativeHeight="2"/>
+            </Anchor>
+            <Label>
+                <lb ref="8"/>
+            </Label>
+        </equipment>
+        <lb id="8" x="#set($x1 = $x + 0.00)$x1" y="#set($y1 = $y + -16.00)$y1">
+            <a>
+                <text>
+                    <string>$name</string>
+                </text>
+            </a>
+        </lb>
+    </figures>
+</drawing>

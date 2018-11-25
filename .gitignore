@@ -21,3 +21,29 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+*.class
+RscData
+.metadata
+com.shrcn.business.common/bin
+com.shrcn.business.graph/bin
+com.shrcn.business.scl/bin
+com.shrcn.found.common/bin
+com.shrcn.found.dbx/bin
+com.shrcn.found.dbxapi/bin
+com.shrcn.found.library/bin
+com.shrcn.found.svg/bin
+com.shrcn.found.ui/bin
+com.shrcn.ftp/bin
+com.shrcn.sct.draw/bin
+com.shrcn.sct.dxf/bin
+com.shrcn.sct.gef.core/bin
+com.shrcn.sct.gef.ui/bin
+com.shrcn.sct.graph/bin
+com.shrcn.sct.iec61850/bin
+com.shrcn.sct.subnetwork/bin
+com.shrcn.sct.ui/bin
+de.kupzog.KTable/bin
+org.sf.feeling.swt.win32.extension/bin
+*.scd
+*.log

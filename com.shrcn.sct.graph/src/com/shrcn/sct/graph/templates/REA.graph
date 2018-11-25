@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drawing>
+    <figures>
+        <g id="0">
+            <children>
+                <r id="1" x="120" y="120" w="48" h="48">
+                    <a>
+                        <fillColor>
+                            <null/>
+                        </fillColor>
+                        <strokeColor>
+                            <null/>
+                        </strokeColor>
+                    </a>
+                </r>
+                <g id="2">
+                    <children>
+                        <e id="3" x="133" y="133" w="23" h="24">
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                            </a>
+                        </e>
+                        <l id="4" isVisible="true" name="">
+                            <points>
+                                <p colinear="true" x="133" y="144"/>
+                                <p colinear="true" x="143" y="144"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                            </a>
+                        </l>
+                        <l id="5" isVisible="true" name="">
+                            <points>
+                                <p colinear="true" x="144" y="144"/>
+                                <p colinear="true" x="144" y="120"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                            </a>
+                        </l>
+                        <l id="6" isVisible="true" name="">
+                            <points>
+                                <p colinear="true" x="143" y="158"/>
+                                <p colinear="true" x="143" y="168"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                            </a>
+                        </l>
+                    </children>
+                </g>
+            </children>
+        </g>
+    </figures>
+</drawing>

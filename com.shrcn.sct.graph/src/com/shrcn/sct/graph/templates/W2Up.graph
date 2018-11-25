@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drawing>
+    <figures>
+        <g id="0">
+            <children>
+                <g id="1">
+                    <children>
+                        <r id="2" x="425" y="79.25" w="48" h="48">
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <textColor>
+                                    <null/>
+                                </textColor>
+                                <strokeColor>
+                                    <null/>
+                                </strokeColor>
+                            </a>
+                        </r>
+                        <e id="3" x="451.75" y="95" w="17.25" h="18.5">
+                            <a>
+                                <strokeWidth>
+                                    <double>1</double>
+                                </strokeWidth>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <color rgba="#ff000000"/>
+                                </strokeColor>
+                            </a>
+                        </e>
+                        <e id="4" x="438.75" y="102.75" w="19.25" h="19.25">
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <color rgba="#ff000000"/>
+                                </strokeColor>
+                            </a>
+                        </e>
+                        <e id="5" x="438.75" y="85.75" w="19.25" h="19.25">
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <color rgba="#ff000000"/>
+                                </strokeColor>
+                            </a>
+                        </e>
+                        <b id="6">
+                            <points>
+                                <p colinear="true" x="449" y="79"/>
+                                <p colinear="true" x="449" y="85"/>
+                            </points>
+                            <a>
+                                <strokeColor>
+                                    <color rgba="#ff000000"/>
+                                </strokeColor>
+                            </a>
+                        </b>
+                        <b id="7">
+                            <points>
+                                <p colinear="true" x="449" y="122"/>
+                                <p colinear="true" x="449" y="127"/>
+                            </points>
+                            <a>
+                                <strokeColor>
+                                    <color rgba="#ff000000"/>
+                                </strokeColor>
+                            </a>
+                        </b>
+                        <b id="8">
+                            <points>
+                                <p colinear="true" x="469" y="103"/>
+                                <p colinear="true" x="473" y="103"/>
+                            </points>
+                            <a>
+                                <strokeColor>
+                                    <color rgba="#ff000000"/>
+                                </strokeColor>
+                            </a>
+                        </b>
+                    </children>
+                </g>
+            </children>
+            	<Label>
+      	<t ref="9"/>
+      </Label>
+         </g>
+                <t id="9" x="425" y="79.25">
+                    <a>
+                        <text>
+                            <string>PTR3</string>
+                        </text>
+                    </a>
+                </t>          
+  </figures>  
+</drawing>

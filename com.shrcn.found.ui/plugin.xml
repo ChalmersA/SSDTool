@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<extension-point id="AppMenuExtension" name="AppMenuExtension" schema="schema/AppMenuExtension.exsd"/>
+	<extension
+         point="org.eclipse.ui.views">
+		<category
+			name = "EASY50"
+			id = "com.shrcn.sct.Easy50">
+		</category>
+	  <view
+	  		category="com.shrcn.sct.Easy50"
+	        class="com.shrcn.found.ui.view.ConsoleView"
+	        icon="icons/console.gif"
+	        id="com.shrcn.found.ui.view.ConsoleView"
+	        name="输出">
+	  </view>
+	 </extension>
+	  <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            name="SCT XML Editor"
+            extensions="xml"
+            icon="icons/xmlfile.gif"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            class="com.shrcn.found.ui.editor.xml.XMLEditor"
+            id="com.shrcn.found.ui.editor.xml.XMLEditor">
+      </editor>
+   </extension>
+</plugin>

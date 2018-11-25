@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drawing>
+    <figures>
+        <g id="0">
+            <children>
+                <g id="1">
+                    <children>
+                        <l id="2">
+                            <points>
+                                <p colinear="true" x="448" y="196.25"/>
+                                <p colinear="true" x="448" y="234"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <textColor>
+                                    <color rgba="#ff000000"/>
+                                </textColor>
+                                <strokeColor>
+                                    <color rgba="#ff000000"/>
+                                </strokeColor>
+                            </a>
+                        </l>
+                        <b id="3">
+                            <points closed="true">
+                                <p colinear="true" x="444.5" y="234.25"/>
+                                <p colinear="true" x="451.25" y="234.25"/>
+                                <p colinear="true" x="448" y="243"/>
+                            </points>
+                            <a>
+                                <closed>
+                                    <boolean>true</boolean>
+                                </closed>
+                                <fillColor>
+                                    <color rgba="#ff000000"/>
+                                </fillColor>
+                                <textColor>
+                                    <null/>
+                                </textColor>
+                                <strokeColor>
+                                    <color rgba="#ff000000"/>
+                                </strokeColor>
+                            </a>
+                        </b>
+                        <r id="4" x="424" y="196" w="48" h="48">
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <textColor>
+                                    <null/>
+                                </textColor>
+                                <strokeColor>
+                                    <null/>
+                                </strokeColor>
+                            </a>
+                        </r>
+                    </children>
+                </g>
+            </children>
+         </g>      
+  </figures>  
+</drawing>

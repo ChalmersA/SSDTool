@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+	<extension
+         point="org.eclipse.ui.editors">
+         <editor
+            class="com.shrcn.sct.draw.IEDGraphEditor"
+            contributorClass="com.shrcn.sct.draw.actions.DiagramActionBarContributor"
+            icon="icons/linecheck.gif"
+            id="com.shrcn.sct.draw.IEDGraphEditor"
+            name="%relation.editor">
+      </editor>
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.views">
+		<category
+			name = "EASY50"
+			id = "com.shrcn.sct.Easy50">
+		</category>
+   	  <view
+         	category="com.shrcn.sct.Easy50"
+          	class="com.shrcn.sct.draw.view.PortReferenceView"
+         	icon="icons/edttree.gif"
+         	id="com.shrcn.sct.draw.view.PortReferenceView"
+         	name="%tm.ref.view">
+   	  </view>
+   	  <view
+         	category="com.shrcn.sct.Easy50"
+          	class="com.shrcn.sct.draw.view.PortOutPutView"
+         	icon="icons/outputsig.gif"
+         	id="com.shrcn.sct.draw.view.PortOutPutView"
+         	name="%out.view">
+   	  </view>
+   	  <view
+         	category="com.shrcn.sct.Easy50"
+          	class="com.shrcn.sct.draw.view.PortInputView"
+         	icon="icons/do.gif"
+         	id="com.shrcn.sct.draw.view.PortInputView"
+         	name="%in.view">
+   	  </view>
+   </extension>
+</plugin>

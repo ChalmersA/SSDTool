@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="subnetwork"
+    nsURI="http://com.shrcn.sct.subnetwork" nsPrefix="model">
+  <eClassifiers xsi:type="ecore:EClass" name="IED" eSuperTypes="AbstractModel.ecore#//NodeElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="iedName" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SubNetwork" eSuperTypes="AbstractModel.ecore#//NodeElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="networktype" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="networkname" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="iedSum" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="rowSum" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="colSum" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SNConnection" eSuperTypes="AbstractModel.ecore#//Connection"/>
+  <eClassifiers xsi:type="ecore:EClass" name="IEDPin" eSuperTypes="AbstractModel.ecore#//NodeElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="IEDAttribute" eSuperTypes="AbstractModel.ecore#//NodeElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="iedType" eType="#//NameType"
+        defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="apName" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ip" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ldInst" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="cbName" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="macAddress" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="NameType">
+    <eLiterals name="IEDNAME"/>
+    <eLiterals name="APNAME" value="1"/>
+    <eLiterals name="IP" value="2"/>
+    <eLiterals name="GSE" value="3"/>
+    <eLiterals name="SMV" value="4"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SNPin" eSuperTypes="AbstractModel.ecore#//NodeElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="rowIndex" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="conIndex" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"/>
+  </eClassifiers>
+</ecore:EPackage>

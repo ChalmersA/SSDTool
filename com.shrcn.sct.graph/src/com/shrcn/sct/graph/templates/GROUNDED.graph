@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drawing>
+    <figures>
+        <g id="0">
+            <children>
+                <l id="1" isVisible="true" name="">
+                    <points>
+                        <p colinear="true" x="251.5" y="241"/>
+                        <p colinear="true" x="277" y="241"/>
+                    </points>
+                    <a>
+                        <strokeWidth>
+                            <double>2</double>
+                        </strokeWidth>
+                    </a>
+                </l>
+                <l id="2" isVisible="true" name="">
+                    <points>
+                        <p colinear="true" x="255" y="246.5"/>
+                        <p colinear="true" x="273" y="246.5"/>
+                    </points>
+                    <a>
+                        <strokeWidth>
+                            <double>2</double>
+                        </strokeWidth>
+                    </a>
+                </l>
+                <l id="3" isVisible="true" name="">
+                    <points>
+                        <p colinear="true" x="257.3333333333333" y="252.33333333333334"/>
+                        <p colinear="true" x="270.5" y="252.5"/>
+                    </points>
+                    <a>
+                        <strokeWidth>
+                            <double>2</double>
+                        </strokeWidth>
+                    </a>
+                </l>
+                <r id="4" x="240" y="240" w="48" h="48">
+                    <a>
+                        <fillColor>
+                            <null/>
+                        </fillColor>
+                        <strokeWidth>
+                            <double>2</double>
+                        </strokeWidth>
+                        <strokeColor>
+                            <null/>
+                        </strokeColor>
+                    </a>
+                </r>
+            </children>
+        </g>
+    </figures>
+</drawing>

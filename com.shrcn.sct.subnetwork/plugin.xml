@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ <copyright>
+ </copyright>
+
+ $Id: plugin.xml,v 1.2 2012/07/31 10:18:01 cchun Exp $
+-->
+
+<plugin>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http://com.shrcn.sct.subnetwork" 
+       class = "com.shrcn.sct.subnetwork.SubnetworkPackage"
+       genModel = "model/subnetwork.genmodel" /> 
+  </extension>
+
+  <extension
+        point="org.eclipse.ui.editors">
+     <editor
+           class="com.shrcn.sct.subnetwork.editor.SubNetworkEditor"
+           contributorClass="com.shrcn.sct.subnetwork.editor.SNEditorActionBarContributor"
+           extensions="subnetwork"
+           icon="icons/device.png"
+           id="com.shrcn.sct.subnetwork.editor.SubNetworkEditor"
+           name="通信配置图">
+     </editor>
+  </extension>
+  <extension
+        point="com.shrcn.sct.gef.ui.editPartFactory">
+     <editpartFactory
+           class="com.shrcn.sct.subnetwork.editor.SubNetWorkEditPartFactory">
+     </editpartFactory>
+  </extension>
+  <extension
+        point="com.shrcn.sct.gef.ui.modelcreation">
+     <modelcreate
+           class="com.shrcn.sct.subnetwork.editor.SNModelCreationFactory">
+     </modelcreate>
+     <modelparser
+           class="com.shrcn.sct.subnetwork.SubNetWorkGefModelParser">
+     </modelparser>
+  </extension>
+  <extension
+        point="com.shrcn.sct.gef.ui.palette">
+     <paletteEntry
+           class="com.shrcn.sct.subnetwork.impl.SubnetworkFactoryImpl"
+           group="nodes"
+           method="createIED"
+           name="IED"
+           nodeType="others">
+     </paletteEntry>
+     <paletteEntry
+           class="com.shrcn.sct.subnetwork.impl.SubnetworkFactoryImpl"
+           group="nodes"
+           method="createSubNetwork"
+           name="SubNetwork"
+           nodeType="others">
+     </paletteEntry>
+     <paletteLine
+           class="com.shrcn.sct.subnetwork.impl.SubnetworkFactoryImpl"
+           lineType="common"
+           method="createSNConnection"
+           name="Connection">
+     </paletteLine>
+  </extension>
+  <extension
+        point="com.shrcn.sct.gef.ui.modelcheck">
+     <connectioncheck
+           class="com.shrcn.sct.subnetwork.SNConnectionCheck">
+     </connectioncheck>
+  </extension>
+
+</plugin>
+

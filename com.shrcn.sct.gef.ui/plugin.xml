@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension-point id="editPartFactory" name="Node EditPartFactory Extension" schema="schema/editPartFactory.exsd"/>
+   <extension-point id="modelcreation" name="Model Creation Extension" schema="schema/modelcreation.exsd"/>
+   <extension-point id="palette" name="Palette Create Extension" schema="schema/palette.exsd"/>
+   <extension-point id="property" name="Property Extension" schema="schema/property.exsd"/>
+   <extension-point id="modelcheck" name="Model Check" schema="schema/modelcheck.exsd"/>
+</plugin>

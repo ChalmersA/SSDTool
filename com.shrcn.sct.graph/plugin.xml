@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension point="org.eclipse.ui.editors">
+   		  <editor
+	            name="%single.graph.editor"
+	            icon="icons/single.PNG"
+	            class="com.shrcn.sct.graph.editor.SingleLineEditor"
+	            id="com.shrcn.sct.graph.editor.SingleLineEditor">
+	      </editor>
+	      <editor
+	            name="%equip.editor"
+	            icon="icons/single.PNG"
+	            class="com.shrcn.sct.graph.editor.GraphEquipmentEditor"
+	            id="com.shrcn.sct.graph.editor.GraphEquipmentEditor">
+	      </editor>
+    </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+      		category="com.shrcn.sct.Easy50"
+            class="com.shrcn.sct.graph.OverView"
+            id="com.shrcn.sct.graph.OverView"
+            icon="icons/elements_obj.gif"
+            name="缩略图">
+      </view>
+   </extension>
+    
+</plugin>

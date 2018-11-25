@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+	
+	<extension
+          point="org.eclipse.ui.bindings">
+        <scheme
+            id="miner.accelerator"
+            name="sctAccelerator">
+       </scheme>
+    </extension>
+    
+	<extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="com.shrcn.sct.ui.app.EditPerspective"
+            icon="icons/alt_window_16.gif"
+            id="com.shrcn.sct.editperspective"
+            name="%sct.perspective">
+      </perspective>
+   </extension>
+
+	<extension point="org.eclipse.ui.perspectiveExtensions">
+		<perspectiveExtension targetID="com.shrcn.sct.editperspective">
+			<view id="com.shrcn.sct.iec61850.navg.NavigationViewPart" 
+				relative="org.eclipse.ui.editorss"
+				relationship="left"
+				ratio="0.40"/>
+			<view id="com.shrcn.sct.graph.OverView" 
+				relative="com.shrcn.sct.iec61850.navg.NavigationViewPart"
+				relationship="bottom"
+				ratio="0.68"/>
+			<view id="com.shrcn.found.ui.view.ConsoleView" 
+				relative="org.eclipse.ui.editorss"
+				relationship="bottom"
+				ratio="0.6"/>
+			<view id="com.shrcn.sct.iec61850.view.PropertyView" 
+				relative="com.shrcn.found.ui.view.ConsoleView"
+				relationship="stack"/>
+		</perspectiveExtension>
+	</extension>
+	
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run class="com.shrcn.sct.ui.app.Application">
+         </run>
+      </application>
+   </extension>
+   
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="com.shrcn.sct.ui.application"
+            name="%sys.tool.app">
+         <property
+               name="windowImages"
+               value="icons/alt_window_16.gif,icons/alt_window_32.gif">
+         </property>
+         <property
+               name="appName"
+               value="%sys.tool.app">
+         </property>
+         <property
+               name="preferenceCustomization"
+               value="customization.ini">
+         </property>
+      </product>
+   </extension>
+   
+   <extension
+       point="org.eclipse.ui.splashHandlers">
+    <splashHandler
+          class="com.shrcn.sct.ui.splashHandlers.InteractiveSplashHandler"
+          id="com.shrcn.sct.iec61850.splashHandlers.interactive">
+    </splashHandler>
+    <splashHandlerProductBinding
+          productId="com.shrcn.sct.ui.product"
+          splashId="com.shrcn.sct.iec61850.splashHandlers.interactive">
+    </splashHandlerProductBinding>
+ </extension>
+	
+	<extension
+	      point="com.shrcn.found.ui.AppMenuExtension">
+	      <menu id="menu.file" text="%menu.file">
+	      		<action class="com.shrcn.sct.iec61850/com.shrcn.sct.iec61850.action.NewProjectAction" icon="file.gif" text="%action.NewProjectAction" style="3"/>
+	      		<action class="com.shrcn.sct.iec61850/com.shrcn.sct.iec61850.action.OpenProjectAction" icon="folder.gif" text="%action.OpenProjectAction" style="3"/>
+	      		<action class="com.shrcn.sct.iec61850/com.shrcn.sct.iec61850.action.HistoryProjectAction" icon="folder.gif" text="%action.HistoryProjectAction" style="3"/>
+	      		<action class="org.eclipse.jface.action.Separator"/>
+	      		<action class="com.shrcn.sct.iec61850/com.shrcn.sct.iec61850.action.SaveAction" disabled="true" icon="save_edit.gif" text="%action.SaveAction" style="3"/>
+	      		<action class="com.shrcn.sct.iec61850/com.shrcn.sct.iec61850.action.SaveAsAction" disabled="true" icon="saveas.gif" text="%action.SaveAsAction"/>
+	      		<action class="org.eclipse.jface.action.Separator"/>
+	      		<action class="com.shrcn.sct.iec61850/com.shrcn.sct.iec61850.action.VerifySwitchAction" text="%action.VerifySwitchAction"/>
+	      		<action class="com.shrcn.sct.iec61850/com.shrcn.sct.iec61850.action.HistorySwitchAction" text="%action.HistorySwitchAction"/>
+	      <menu id="menu.import" text="%menu.import">
+	      		<action class="com.shrcn.sct.iec61850/com.shrcn.sct.iec61850.action.ImportSSDAction" icon="editImport.gif" text="%action.ImportSSDAction"/>
+	      </menu>
+	      <menu id="menu.export" text="%menu.export">
+	      		<action class="com.shrcn.sct.iec61850/com.shrcn.sct.iec61850.action.ExportSSDAction" disabled="true" icon="editExport.gif" text="%action.ExportSSDAction"/>
+	      </menu>
+	      		<action class="org.eclipse.jface.action.Separator"/>
+	      		
+	      		<action class="org.eclipse.ui.actions.ActionFactory" command="QUIT"/>
+	      </menu>
+	      <menu id="menu.check" text="%menu.check">
+	      		<action class="com.shrcn.sct.iec61850/com.shrcn.sct.iec61850.action.SchemaVerifyAction" disabled="false" icon="xsd.gif" text="%action.SchemaVerifyAction"/>
+	      		<action class="com.shrcn.sct.iec61850/com.shrcn.sct.iec61850.action.CRCCompareAction" icon="compare.gif" text="%action.CRCCompareAction"/>
+	      </menu>		
+	      <menu id="menu.application" text="%menu.app">
+	      		<action class="com.shrcn.sct.graph/com.shrcn.sct.graph.action.OpenTemplatesAction" text="%action.OpenTemplatesAction"/>	      		
+	      		<action class="com.shrcn.sct.iec61850/com.shrcn.sct.iec61850.action.ConfigFileAction" text="%action.ConfigFileAction"/>
+	      </menu>
+	      <menu id="menu.view" text="%menu.view">
+	      		<action class="com.shrcn.found.ui/com.shrcn.found.ui.action.ShowViewAction" viewId="com.shrcn.sct.iec61850.navg.NavigationViewPart" icon="filenav.gif" text="%action.ShowNavgViewAction"/>
+	      		<action class="com.shrcn.found.ui/com.shrcn.found.ui.action.ShowViewAction" viewId="com.shrcn.sct.graph.OverView" icon="elements_obj.gif" text="%action.ShowOverViewAction"/>
+	      		<action class="org.eclipse.jface.action.Separator"/>
+	      		<action class="com.shrcn.found.ui/com.shrcn.found.ui.action.ShowViewAction" viewId="com.shrcn.found.ui.view.ConsoleView" icon="console.gif" text="%action.ShowConsoleViewAction"/>
+	      		<action class="com.shrcn.found.ui/com.shrcn.found.ui.action.ShowViewAction" viewId="com.shrcn.sct.iec61850.view.PropertyView" icon="property.gif" text="%action.ShowPropertyViewAction"/>
+	      		<action class="org.eclipse.jface.action.Separator"/>
+	      </menu>
+	</extension>
+</plugin>

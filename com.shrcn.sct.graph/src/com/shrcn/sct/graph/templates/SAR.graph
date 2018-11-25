@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drawing>
+    <figures>
+        <g id="0">
+            <children>
+                <g id="1">
+                    <children>
+                        <r id="2" x="261.75" y="275.75" w="5" h="17.75">
+                            <a>
+                                <fillColor>
+                                    <color rgba="#ffffffff"/>
+                                </fillColor>
+                                <textColor>
+                                    <color rgba="#ffffffff"/>
+                                </textColor>
+                            </a>
+                        </r>
+                        <b id="3">
+                            <points>
+                                <p colinear="true" x="264.25" y="293"/>
+                                <p colinear="true" x="264.25" y="302"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <color rgba="#ff000000"/>
+                                </strokeColor>
+                            </a>
+                        </b>
+                        <r id="4" x="240" y="265" w="48" h="48">
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <null/>
+                                </strokeColor>
+                            </a>
+                        </r>
+                        <b id="5">
+                            <points>
+                                <p colinear="true" x="256.5" y="302.5"/>
+                                <p colinear="true" x="273.5" y="302.5"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <color rgba="#ff000000"/>
+                                </strokeColor>
+                            </a>
+                        </b>
+                        <b id="6">
+                            <points>
+                                <p colinear="true" x="258.5" y="307.5"/>
+                                <p colinear="true" x="270.5" y="307.5"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <color rgba="#ff000000"/>
+                                </strokeColor>
+                            </a>
+                        </b>
+                        <b id="7">
+                            <points>
+                                <p colinear="true" x="260.5" y="312.5"/>
+                                <p colinear="true" x="267.5" y="312.5"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <color rgba="#ff000000"/>
+                                </strokeColor>
+                            </a>
+                        </b>
+                        <l id="8">
+                            <points>
+                                <p colinear="true" x="264" y="264.75"/>
+                                <p colinear="true" x="264" y="275.25"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <textColor>
+                                    <color rgba="#ff000000"/>
+                                </textColor>
+                                <strokeColor>
+                                    <color rgba="#ff000000"/>
+                                </strokeColor>
+                            </a>
+                        </l>
+                        <l id="9">
+                            <points>
+                                <p colinear="true" x="261.75" y="276"/>
+                                <p colinear="true" x="266.75" y="294"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <textColor>
+                                    <color rgba="#ff000000"/>
+                                </textColor>
+                                <strokeColor>
+                                    <color rgba="#ff000000"/>
+                                </strokeColor>
+                            </a>
+                        </l>
+                        <l id="a">
+                            <points>
+                                <p colinear="true" x="266.5" y="276"/>
+                                <p colinear="true" x="262" y="293.75"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <textColor>
+                                    <color rgba="#ff000000"/>
+                                </textColor>
+                                <strokeColor>
+                                    <color rgba="#ff000000"/>
+                                </strokeColor>
+                            </a>
+                        </l>
+                    </children>
+                </g>
+            </children>
+        </g>       
+    </figures>
+</drawing>

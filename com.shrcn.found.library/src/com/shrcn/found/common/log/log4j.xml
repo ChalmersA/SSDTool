@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+	<appender name="CONSOLE" 
+		class="org.apache.log4j.ConsoleAppender">  
+      	<param name="Target" value="System.out"/>
+      	<layout class="org.apache.log4j.PatternLayout">  
+         	<param name="ConversionPattern" value="%d %-5p [%c][%F][%M()][%L] %m%n"/>
+      	</layout>
+   </appender>
+   
+	<appender name="com.shrcn.sct.all"
+		class="org.apache.log4j.RollingFileAppender">
+		<!-- 设置通道ID:com.shrcn.sct.all和输出方式：org.apache.log4j.RollingFileAppender -->
+		<!-- 设置File参数：日志输出文件名 -->
+		<param name="File" value="${user.dir}/logs/all.output.log" />
+		<!-- 设置是否在重新启动服务时，在原有日志的基础添加新日志 -->
+		<param name="Append" value="true" />
+		<param name="MaxBackupIndex" value="10" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<!-- 设置输出文件项目和格式 -->
+			<param name="ConversionPattern" value="%d %-5p [%c][%F][%M()][%L] %m%n" />
+		</layout>
+	</appender>
+	
+	<logger name="com.shrcn.sct">
+		<level value="WARN" />
+		<appender-ref ref="com.shrcn.sct.all"/>
+		<appender-ref ref="CONSOLE" />
+	</logger>
+	<logger name="org.apache.jcs.engine.control.CompositeCacheManager">
+		<level value="WARN" />
+		<appender-ref ref="com.shrcn.sct.all"/>
+		<appender-ref ref="CONSOLE" />
+	</logger>
+	<logger name="org.apache.jcs.engine.control.CompositeCacheConfigurator">
+		<level value="WARN" />
+		<appender-ref ref="com.shrcn.sct.all"/>
+		<appender-ref ref="CONSOLE" />
+	</logger>
+	<logger name="org.apache.jcs.utils.threadpool.ThreadPoolManager">
+		<level value="WARN" />
+		<appender-ref ref="com.shrcn.sct.all"/>
+		<appender-ref ref="CONSOLE" />
+	</logger>
+	
+	<categoryFactory class="com.shrcn.found.common.log.SCTLoggerFactory"/>
+	
+	<root>
+		<level value="info"/>
+	</root>
+</log4j:configuration>

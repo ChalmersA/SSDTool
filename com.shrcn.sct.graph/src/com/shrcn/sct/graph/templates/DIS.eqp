@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<drawing> 
+  <figures> 
+    <equipment id="0" status="2"> 
+      <children> 
+        <g id="1" status="0"> 
+          <children> 
+            <r id="2" x="#set($x1 = $x + 0.00)$x1" y="#set($y1 = $y + 0.00)$y1" w="48" h="48"> 
+              <a> 
+                <fillColor> 
+                  <null/> 
+                </fillColor>  
+                <strokeColor> 
+                  <null/> 
+                </strokeColor> 
+              </a> 
+            </r>  
+            <b id="3"> 
+              <points> 
+                <p colinear="true" x="#set($x1 = $x + 24)$x1" y="#set($y1 = $y + 0.00)$y1"/>  
+                <p colinear="true" x="#set($x1 = $x + 24)$x1" y="#set($y1 = $y + 15.16)$y1"/> 
+              </points> 
+            </b>  
+            <b id="4"> 
+              <points> 
+                <p colinear="true" x="#set($x1 = $x + 24)$x1" y="#set($y1 = $y + 33.34)$y1"/>  
+                <p colinear="true" x="#set($x1 = $x + 24)$x1" y="#set($y1 = $y + 48.00)$y1"/> 
+              </points> 
+            </b>  
+            <b id="5"> 
+              <points> 
+                <p colinear="true" x="#set($x1 = $x + 24)$x1" y="#set($y1 = $y + 33.34)$y1"/>  
+                <p colinear="true" x="#set($x1 = $x + 35.50)$x1" y="#set($y1 = $y + 15.16)$y1"/> 
+              </points> 
+            </b>  
+            <b id="6"> 
+              <points> 
+                <p colinear="true" x="#set($x1 = $x + 18.00)$x1" y="#set($y1 = $y + 16.17)$y1"/>  
+                <p colinear="true" x="#set($x1 = $x + 29.32)$x1" y="#set($y1 = $y + 16.17)$y1"/> 
+              </points>  
+              <a> 
+                <fillColor> 
+                  <null/> 
+                </fillColor>  
+                <strokeColor> 
+                  <color rgba="#ff000000"/> 
+                </strokeColor> 
+              </a> 
+            </b> 
+          </children> 
+        </g>  
+        <g id="7" status="1"> 
+          <children> 
+            <r id="8" x="#set($x1 = $x + 0.00)$x1" y="#set($y1 = $y + 0.00)$y1" w="48" h="48"> 
+              <a> 
+                <fillColor> 
+                  <null/> 
+                </fillColor>  
+                <strokeColor> 
+                  <null/> 
+                </strokeColor> 
+              </a> 
+            </r>  
+            <b id="9"> 
+              <points> 
+                <p colinear="true" x="#set($x1 = $x + 24)$x1" y="#set($y1 = $y + 0.00)$y1"/>  
+                <p colinear="true" x="#set($x1 = $x + 24)$x1" y="#set($y1 = $y + 15.16)$y1"/> 
+              </points> 
+            </b>  
+            <b id="10"> 
+              <points> 
+                <p colinear="true" x="#set($x1 = $x + 24)$x1" y="#set($y1 = $y + 33.34)$y1"/>  
+                <p colinear="true" x="#set($x1 = $x + 24)$x1" y="#set($y1 = $y + 48.00)$y1"/> 
+              </points> 
+            </b>  
+            <b id="11"> 
+              <points> 
+                <p colinear="true" x="#set($x1 = $x + 24)$x1" y="#set($y1 = $y + 33.34)$y1"/>  
+                <p colinear="true" x="#set($x1 = $x + 24)$x1" y="#set($y1 = $y + 15.16)$y1"/> 
+              </points> 
+            </b>  
+            <b id="12"> 
+              <points> 
+                <p colinear="true" x="#set($x1 = $x + 18.00)$x1" y="#set($y1 = $y + 16.17)$y1"/>  
+                <p colinear="true" x="#set($x1 = $x + 29.32)$x1" y="#set($y1 = $y + 16.17)$y1"/> 
+              </points>  
+              <a> 
+                <fillColor> 
+                  <null/> 
+                </fillColor>  
+                <strokeColor> 
+                  <color rgba="#ff000000"/> 
+                </strokeColor> 
+              </a> 
+            </b> 
+          </children> 
+        </g>
+      </children>
+      <a>
+      	<type>
+            <string>DIS</string>
+        </type>
+		<mType>
+            <string>DIS</string>
+        </mType>
+      </a>
+    <Anchor>
+         <d0 relativeWidth="1" relativeHeight="0" name="null"/>
+         <d1 relativeWidth="1" relativeHeight="2" name="null"/>
+     </Anchor>
+      	<Label>
+      	<lb ref="13"/>
+      </Label> 
+    </equipment> 
+    <lb id="13" x="#set($x1 = $x + 0.00)$x1" y="#set($y1 = $y - 16)$y1"> 
+          <a> 
+            <text> 
+              <string>$name</string> 
+            </text> 
+          </a> 
+        </lb>
+  </figures> 
+</drawing>

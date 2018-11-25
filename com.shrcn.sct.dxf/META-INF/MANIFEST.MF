@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Dxf Plug-in
+Bundle-SymbolicName: com.shrcn.sct.dxf
+Bundle-Version: 1.0.0
+Bundle-Activator: com.shrcn.sct.dxf.Activator
+Bundle-Vendor: SHRCN
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.gef,
+ com.shrcn.found.common;bundle-version="1.0.0",
+ com.shrcn.found.ui;bundle-version="1.0.0",
+ com.shrcn.business.scl;bundle-version="1.0.0",
+ com.shrcn.found.dbxapi;bundle-version="1.0.0",
+ com.shrcn.sct.draw;bundle-version="1.0.0",
+ com.shrcn.sct.gef.ui;bundle-version="1.0.0",
+ com.shrcn.found.library;bundle-version="1.0.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: com.shrcn.sct.dxf.editor,
+ com.shrcn.sct.dxf.factory
+Bundle-ClassPath: lib/dxf.jar,
+ .
