@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iec.ch/61850/2003/SCL" xmlns:scl="http://www.iec.ch/61850/2003/SCL" targetNamespace="http://www.iec.ch/61850/2003/SCL" xmlns:rScl="http://www.chinapower.cn/Rfs/2004/RfsXSCL" xmlns:NS="http://www.chinapower.cn/Rfs/2004/MICS" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
+<xs:include schemaLocation="SCL_DataTypeTemplates.xsd"/>
+ <xs:element name="MICS">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="scl:tBaseElement">
+          <xs:sequence>
+            <xs:element name="Header" type="scl:tHeader">
+              <xs:unique name="uniqueHitem">
+                <xs:selector xpath="./scl:History/scl:Hitem" />
+                <xs:field xpath="@version" />
+                <xs:field xpath="@revision" />
+              </xs:unique>
+            </xs:element>
+            <xs:element ref="NameSpaces" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="LNodeTypes" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="DOTypes" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="DATypes" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
+          <xs:attribute name="iedModel" type="xs:normalizedString" />
+          <xs:attribute name="iedVersion" type="xs:normalizedString" />
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NameSpaces">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="NameSpace" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NameSpace">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="A_Name" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:attribute name="space_ID" type="xs:normalizedString" use="required" />
+      <xs:attribute name="version" type="xs:normalizedString" use="required" />
+      <xs:attribute name="verdor" type="xs:normalizedString" />
+      <xs:attribute name="document" type="xs:normalizedString" />
+      <xs:attribute name="desc" type="xs:normalizedString" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="A_Name">
+    <xs:complexType>
+      <xs:attribute name="name_ID" type="xs:normalizedString" use="required" />
+      <xs:attribute name="name_Type" type="tNameTypeEnum" use="required" />
+      <xs:attribute name="semantic_Desc" type="xs:normalizedString" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="tNameTypeEnum">
+    <xs:restriction base="xs:normalizedString">
+      <xs:enumeration value="LNType" />
+      <xs:enumeration value="DO" />
+      <xs:enumeration value="CDC" />
+      <xs:enumeration value="DA" />
+      <xs:enumeration value="DAType" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="LNodeTypes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="LNodeType" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DO" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                  </xs:sequence>
+                  <xs:attributeGroup ref="NSRef_AG" />
+                  <xs:attribute name="presence" type="tPresenceTypeEnum" />
+                  <xs:attribute name="doType" type="xs:normalizedString" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attributeGroup ref="NSRef_AG" />
+            <xs:attribute name="prefix" type="xs:normalizedString" />
+            <xs:attribute name="ln_Class" type="xs:normalizedString" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="tPresenceTypeEnum">
+    <xs:restriction base="xs:normalizedString">
+      <xs:enumeration value="M" />
+      <xs:enumeration value="O" />
+      <xs:enumeration value="C" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:attributeGroup name="NSRef_AG">
+    <xs:attribute name="space_ID" type="xs:normalizedString" />
+    <xs:attribute name="name_ID" type="xs:normalizedString" />
+    <xs:attribute name="private_Desc" type="xs:normalizedString" />
+  </xs:attributeGroup>
+  <xs:element name="DOTypes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="DOType" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DA" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                  </xs:sequence>
+                  <xs:attributeGroup ref="NSRef_AG" />
+                  <xs:attribute name="presence" type="tPresenceTypeEnum" />
+                  <xs:attribute name="daType" type="xs:normalizedString" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="SDO" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                  </xs:sequence>
+                  <xs:attributeGroup ref="NSRef_AG" />
+                  <xs:attribute name="presence" type="tPresenceTypeEnum" />
+                  <xs:attribute name="doType" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attributeGroup ref="NSRef_AG" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DATypes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="DAType" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BDA" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                  </xs:sequence>
+                  <xs:attributeGroup ref="NSRef_AG" />
+                  <xs:attribute name="presence" type="tPresenceTypeEnum" />
+                  <xs:attribute name="daType" type="xs:normalizedString" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attributeGroup ref="NSRef_AG" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

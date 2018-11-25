@@ -1,0 +1,120 @@
+<drawing>
+    <figures>
+        <equipment id="4e">
+            <children>
+                <g id="0">
+                    <children>
+                        <l id="1">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 7.17)$x1" y="#set($y1 = $y + 30.00)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 7.17)$x1" y="#set($y1 = $y + 35.00)$y1"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                            </a>
+                        </l>
+                        <l id="2">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 7.17)$x1" y="#set($y1 = $y + 0.00)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 7.17)$x1" y="#set($y1 = $y + 4.00)$y1"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                            </a>
+                        </l>
+                        <r id="3" x="#set($x1 = $x + 2.17)$x1" y="#set($y1 = $y + 4.50)$y1" w="10" h="25">
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                            </a>
+                        </r>
+                        <l id="4">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 3.17)$x1" y="#set($y1 = $y + 5.00)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 11.17)$x1" y="#set($y1 = $y + 29.00)$y1"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                            </a>
+                        </l>
+                        <l id="5">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 11.17)$x1" y="#set($y1 = $y + 5.50)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 2.67)$x1" y="#set($y1 = $y + 29.50)$y1"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                            </a>
+                        </l>
+                        <l id="6">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 0.00)$x1" y="#set($y1 = $y + 34.83)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 15.50)$x1" y="#set($y1 = $y + 34.83)$y1"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <color rgba="#ff000000"/>
+                                </fillColor>
+                            </a>
+                        </l>
+                        <l id="7">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 2.50)$x1" y="#set($y1 = $y + 38.00)$y1"/>
+                                <p mask="3" colinear="true" x="#set($x1 = $x + 12.50)$x1" y="#set($y1 = $y + 38.00)$y1"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <color rgba="#ff000000"/>
+                                </fillColor>
+                            </a>
+                        </l>
+                        <l id="8">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 4.33)$x1" y="#set($y1 = $y + 41.17)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 9.67)$x1" y="#set($y1 = $y + 41.17)$y1"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <color rgba="#ff000000"/>
+                                </fillColor>
+                            </a>
+                        </l>
+                    </children>
+                </g>
+            </children>
+            <a>
+                <type>
+                    <string>0F00</string>
+                </type>
+                <mtype>
+                    <string/>
+                </mtype>
+            </a>
+            <Anchor>
+                <d0 relativeWidth="1" relativeHeight="0"/>
+                <d1 relativeWidth="0" relativeHeight="1"/>
+                <d2 relativeWidth="1" relativeHeight="2"/>
+                <d3 relativeWidth="2" relativeHeight="1"/>
+            </Anchor>
+            <Label>
+                <lb ref="79"/>
+            </Label>
+        </equipment>
+        <lb id="79" x="#set($x1 = $x + 0.00)$x1" y="#set($y1 = $y + -16.00)$y1">
+            <a>
+                <text>
+                    <string>$name</string>
+                </text>
+            </a>
+        </lb>
+    </figures>
+</drawing>

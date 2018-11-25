@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bay name="电压测量间隔">  
+  <Private type="oid">09060359190784</Private>  
+  <ConductingEquipment name="隔离刀闸1" type="DIS"> 
+    <Private type="oid">0906035919078963</Private>  
+    <LNode iedName="None" ldInst="" lnClass="XSWI" lnType="null" lnInst="82" prefix=""/>  
+    <LNode iedName="None" ldInst="" lnClass="CILO" lnType="null" lnInst="146" prefix=""/>  
+    <LNode iedName="None" ldInst="" lnClass="CSWI" lnType="null" lnInst="115" prefix=""/>  
+    <Terminal name="Term1" connectivityNode="null" cNodeName="null" voltageLevelName="null" substationName="null" bayName="null"/>  
+    <Terminal name="Term2" voltageLevelName="null" connectivityNode="null" cNodeName="null" substationName="null" bayName="null"/> 
+  </ConductingEquipment>  
+  <ConductingEquipment name="电压互感器1" type="VTR"> 
+    <Private type="oid">0906035919078187</Private>  
+    <Terminal name="Term1" connectivityNode="null" cNodeName="null" substationName="null" voltageLevelName="null" bayName="null"/>  
+    <SubEquipment name="A" phase="A"> 
+      <Private type="oid">0906035919078556</Private>  
+      <LNode iedName="None" ldInst="" lnClass="MMXU" lnType="null" lnInst="38" prefix=""/>  
+      <LNode iedName="None" ldInst="" lnClass="TVTR" lnType="null" lnInst="19" prefix=""/> 
+    </SubEquipment>  
+    <SubEquipment name="B" phase="B"> 
+      <Private type="oid">0906035919078952</Private>  
+      <LNode iedName="None" ldInst="" lnClass="MMXU" lnType="null" lnInst="39" prefix=""/>  
+      <LNode iedName="None" ldInst="" lnClass="TVTR" lnType="null" lnInst="20" prefix=""/> 
+    </SubEquipment>  
+    <SubEquipment name="C" phase="C"> 
+      <Private type="oid">0906035919078838</Private>  
+      <LNode iedName="None" ldInst="" lnClass="MMXU" lnType="null" lnInst="40" prefix=""/>  
+      <LNode iedName="None" ldInst="" lnClass="TVTR" lnType="null" lnInst="21" prefix=""/> 
+    </SubEquipment> 
+  </ConductingEquipment>  
+  <ConductingEquipment name="接地刀闸1" type="DIS"> 
+    <Private type="oid">0906035919078755</Private>  
+    <LNode iedName="None" ldInst="" lnClass="XSWI" lnType="null" lnInst="83" prefix=""/>  
+    <Terminal name="Term1" voltageLevelName="null" connectivityNode="null" cNodeName="null" substationName="null" bayName="null"/>  
+    <Terminal name="Term2" connectivityNode="null" cNodeName="grounded" substationName="null" voltageLevelName="null" bayName="null"/> 
+  </ConductingEquipment>  
+  <ConductingEquipment name="接地刀闸2" type="DIS"> 
+    <Private type="oid">0906035919078209</Private>  
+    <LNode iedName="None" ldInst="" lnClass="XSWI" lnType="null" lnInst="84" prefix=""/>  
+    <Terminal name="Term1" connectivityNode="null" cNodeName="null" substationName="null" voltageLevelName="null" bayName="null"/>  
+    <Terminal name="Term2" connectivityNode="null" cNodeName="grounded" substationName="null" voltageLevelName="null" bayName="null"/> 
+  </ConductingEquipment> 
+</Bay>

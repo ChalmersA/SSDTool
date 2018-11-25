@@ -1,0 +1,83 @@
+<drawing>
+    <figures>
+        <equipment id="2c">
+            <children>
+                <g id="0" status="01">
+                    <children>
+                        <e id="1" x="#set($x1 = $x + 0.00)$x1" y="#set($y1 = $y + 4.00)$y1" w="6" h="6">
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                            </a>
+                        </e>
+                        <e id="2" x="#set($x1 = $x + 0.00)$x1" y="#set($y1 = $y + 24.00)$y1" w="6" h="6">
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                            </a>
+                        </e>
+                        <l id="3">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 3.00)$x1" y="#set($y1 = $y + 0.00)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 3.00)$x1" y="#set($y1 = $y + 4.00)$y1"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                            </a>
+                        </l>
+                        <l id="4">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 6.00)$x1" y="#set($y1 = $y + 8.00)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 6.00)$x1" y="#set($y1 = $y + 26.00)$y1"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                            </a>
+                        </l>
+                        <l id="5">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 3.00)$x1" y="#set($y1 = $y + 29.50)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 3.00)$x1" y="#set($y1 = $y + 34.50)$y1"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                            </a>
+                        </l>
+                    </children>
+                </g>
+            </children>
+            <a>
+                <type>
+                    <string>0301</string>
+                </type>
+                <mtype>
+                    <string/>
+                </mtype>
+            </a>
+            <Anchor>
+                <d0 relativeWidth="1" relativeHeight="0"/>
+                <d1 relativeWidth="0" relativeHeight="1"/>
+                <d2 relativeWidth="1" relativeHeight="2"/>
+                <d3 relativeWidth="2" relativeHeight="1"/>
+            </Anchor>
+            <Label>
+                <lb ref="45"/>
+            </Label>
+        </equipment>
+        <lb id="45" x="#set($x1 = $x + 0.00)$x1" y="#set($y1 = $y + -16.00)$y1">
+            <a>
+                <text>
+                    <string>$name</string>
+                </text>
+            </a>
+        </lb>
+    </figures>
+</drawing>

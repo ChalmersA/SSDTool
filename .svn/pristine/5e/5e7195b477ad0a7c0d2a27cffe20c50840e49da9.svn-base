@@ -1,0 +1,868 @@
+<drawing>
+    <figures>
+        <equipment id="0" statusNums="2">
+            <children>
+                <g id="1" status="0">
+                    <children>
+                        <r id="2" x="#set($x1 = $x + 48.00)$x1" y="#set($y1 = $y + 0.00)$y1" w="48" h="48">
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <null/>
+                                </strokeColor>
+                            </a>
+                        </r>
+                        <b id="3">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 0.00)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 15.16)$y1"/>
+                            </points>
+                        </b>
+                        <b id="4">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 33.34)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 48.00)$y1"/>
+                            </points>
+                        </b>
+                        <b id="5">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 33.34)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 83.50)$x1" y="#set($y1 = $y + 15.16)$y1"/>
+                            </points>
+                        </b>
+                        <b id="6">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 66.00)$x1" y="#set($y1 = $y + 16.17)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 77.32)$x1" y="#set($y1 = $y + 16.17)$y1"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <color rgba="#ff000000"/>
+                                </strokeColor>
+                            </a>
+                        </b>
+                    </children>
+                </g>
+                <g id="7" status="1">
+                    <children>
+                        <r id="8" x="#set($x1 = $x + 48.00)$x1" y="#set($y1 = $y + 0.00)$y1" w="48" h="48">
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <null/>
+                                </strokeColor>
+                            </a>
+                        </r>
+                        <b id="9">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 0.00)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 15.16)$y1"/>
+                            </points>
+                        </b>
+                        <b id="a">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 33.34)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 48.00)$y1"/>
+                            </points>
+                        </b>
+                        <b id="b">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 33.34)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 15.16)$y1"/>
+                            </points>
+                        </b>
+                        <b id="c">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 66.00)$x1" y="#set($y1 = $y + 16.17)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 77.32)$x1" y="#set($y1 = $y + 16.17)$y1"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <color rgba="#ff000000"/>
+                                </strokeColor>
+                            </a>
+                        </b>
+                    </children>
+                </g>
+            </children>
+            <Label>
+                <lb id="d" x="#set($x1 = $x + 0.00)$x1" y="#set($y1 = $y + 0.00)$y1">
+                    <a>
+                        <text>
+                            <string>&#x9694;&#x79bb;&#x5200;&#x95f8;3</string>
+                        </text>
+                    </a>
+                </lb>
+            </Label>
+            <a>
+                <type>
+                    <string>DIS</string>
+                </type>
+                <mType>
+                    <string>DIS</string>
+                </mType>
+                <xpath>
+                    <string>/ConductingEquipment[@name=&apos;&#x9694;&#x79bb;&#x5200;&#x95f8;3&apos;]</string>
+                </xpath>
+                <name>
+                    <string>&#x9694;&#x79bb;&#x5200;&#x95f8;3</string>
+                </name>
+            </a>
+            <Anchor>
+                <d name="null" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 0.00)$y1"/>
+                <d name="null" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 48.00)$y1"/>
+            </Anchor>
+        </equipment>
+        <equipment id="e" statusNums="1">
+            <children>
+                <g id="f">
+                    <children>
+                        <g id="10" name="W1">
+                            <children>
+                                <l id="11">
+                                    <points>
+                                        <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 89.00)$y1"/>
+                                        <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 72.00)$y1"/>
+                                    </points>
+                                </l>
+                                <e id="12" x="#set($x1 = $x + 54.00)$x1" y="#set($y1 = $y + 89.00)$y1" w="36" h="36">
+                                    <a>
+                                        <strokeWidth>
+                                            <double>2</double>
+                                        </strokeWidth>
+                                        <fillColor>
+                                            <null/>
+                                        </fillColor>
+                                        <strokeColor>
+                                            <color rgba="#ff000000"/>
+                                        </strokeColor>
+                                    </a>
+                                </e>
+                            </children>
+                        </g>
+                        <g id="13" name="W3">
+                            <children>
+                                <e id="14" x="#set($x1 = $x + 54.00)$x1" y="#set($y1 = $y + 116.00)$y1" w="36" h="36">
+                                    <a>
+                                        <strokeWidth>
+                                            <double>2</double>
+                                        </strokeWidth>
+                                        <fillColor>
+                                            <null/>
+                                        </fillColor>
+                                        <strokeColor>
+                                            <color rgba="#ff000000"/>
+                                        </strokeColor>
+                                    </a>
+                                </e>
+                                <l id="15">
+                                    <points>
+                                        <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 152.00)$y1"/>
+                                        <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 168.00)$y1"/>
+                                    </points>
+                                </l>
+                            </children>
+                        </g>
+                        <r id="16" x="#set($x1 = $x + 24.00)$x1" y="#set($y1 = $y + 72.00)$y1" w="96" h="96">
+                            <a>
+                                <textColor>
+                                    <null/>
+                                </textColor>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <null/>
+                                </strokeColor>
+                            </a>
+                        </r>
+                        <b id="17" isVisible="false" name="W1 left">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 108.00)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 48.00)$x1" y="#set($y1 = $y + 72.00)$y1"/>
+                            </points>
+                            <a>
+                                <name>
+                                    <string>W1 left</string>
+                                </name>
+                            </a>
+                        </b>
+                        <b id="18" isVisible="true" name="W1 right">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 108.00)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 96.00)$x1" y="#set($y1 = $y + 72.00)$y1"/>
+                            </points>
+                            <a>
+                                <name>
+                                    <string>W1 right</string>
+                                </name>
+                            </a>
+                        </b>
+                        <b id="19" isVisible="false" name="W3 left">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 132.00)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 48.00)$x1" y="#set($y1 = $y + 168.00)$y1"/>
+                            </points>
+                            <a>
+                                <name>
+                                    <string>W3 left</string>
+                                </name>
+                            </a>
+                        </b>
+                        <b id="1a" isVisible="false" name="W3 right">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 132.00)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 96.00)$x1" y="#set($y1 = $y + 168.00)$y1"/>
+                            </points>
+                            <a>
+                                <name>
+                                    <string>W3 right</string>
+                                </name>
+                            </a>
+                        </b>
+                    </children>
+                </g>
+            </children>
+            <Label>
+                <lb id="1b" x="#set($x1 = $x + 10.65)$x1" y="#set($y1 = $y + 81.30)$y1">
+                    <a>
+                        <text>
+                            <string>2&#x5377;&#x53d8;1</string>
+                        </text>
+                    </a>
+                </lb>
+            </Label>
+            <a>
+                <type>
+                    <string>PTR2</string>
+                </type>
+                <mType>
+                    <string>PTR</string>
+                </mType>
+                <xpath>
+                    <string>/PowerTransformer[@name=&apos;2&#x5377;&#x53d8;1&apos;]</string>
+                </xpath>
+                <name>
+                    <string>2&#x5377;&#x53d8;1</string>
+                </name>
+            </a>
+            <Anchor>
+                <d name="W1 left" x="#set($x1 = $x + 48.00)$x1" y="#set($y1 = $y + 72.00)$y1"/>
+                <d name="W1" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 72.00)$y1"/>
+                <d name="W1 right" x="#set($x1 = $x + 96.00)$x1" y="#set($y1 = $y + 72.00)$y1"/>
+                <d name="W3 left" x="#set($x1 = $x + 48.00)$x1" y="#set($y1 = $y + 168.00)$y1"/>
+                <d name="W3" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 168.00)$y1"/>
+                <d name="W3 right" x="#set($x1 = $x + 96.00)$x1" y="#set($y1 = $y + 168.00)$y1"/>
+            </Anchor>
+        </equipment>
+        <equipment id="1c" statusNums="2">
+            <children>
+                <g id="1d" status="0">
+                    <children>
+                        <r id="1e" x="#set($x1 = $x + 48.00)$x1" y="#set($y1 = $y + 192.00)$y1" w="48" h="48">
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <null/>
+                                </strokeColor>
+                            </a>
+                        </r>
+                        <b id="1f">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 192.00)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 207.16)$y1"/>
+                            </points>
+                        </b>
+                        <b id="20">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 225.34)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 240.00)$y1"/>
+                            </points>
+                        </b>
+                        <b id="21">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 225.34)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 83.50)$x1" y="#set($y1 = $y + 207.16)$y1"/>
+                            </points>
+                        </b>
+                        <b id="22">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 66.00)$x1" y="#set($y1 = $y + 208.17)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 77.32)$x1" y="#set($y1 = $y + 208.17)$y1"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <color rgba="#ff000000"/>
+                                </strokeColor>
+                            </a>
+                        </b>
+                    </children>
+                </g>
+                <g id="23" status="1">
+                    <children>
+                        <r id="24" x="#set($x1 = $x + 48.00)$x1" y="#set($y1 = $y + 192.00)$y1" w="48" h="48">
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <null/>
+                                </strokeColor>
+                            </a>
+                        </r>
+                        <b id="25">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 192.00)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 207.16)$y1"/>
+                            </points>
+                        </b>
+                        <b id="26">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 225.34)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 240.00)$y1"/>
+                            </points>
+                        </b>
+                        <b id="27">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 225.34)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 207.16)$y1"/>
+                            </points>
+                        </b>
+                        <b id="28">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 66.00)$x1" y="#set($y1 = $y + 208.17)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 77.32)$x1" y="#set($y1 = $y + 208.17)$y1"/>
+                            </points>
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <color rgba="#ff000000"/>
+                                </strokeColor>
+                            </a>
+                        </b>
+                    </children>
+                </g>
+            </children>
+            <Label>
+                <lb id="29" x="#set($x1 = $x + 0.00)$x1" y="#set($y1 = $y + 201.30)$y1">
+                    <a>
+                        <text>
+                            <string>&#x9694;&#x79bb;&#x5200;&#x95f8;4</string>
+                        </text>
+                    </a>
+                </lb>
+            </Label>
+            <a>
+                <type>
+                    <string>DIS</string>
+                </type>
+                <mType>
+                    <string>DIS</string>
+                </mType>
+                <xpath>
+                    <string>/ConductingEquipment[@name=&apos;&#x9694;&#x79bb;&#x5200;&#x95f8;4&apos;]</string>
+                </xpath>
+                <name>
+                    <string>&#x9694;&#x79bb;&#x5200;&#x95f8;4</string>
+                </name>
+            </a>
+            <Anchor>
+                <d name="null" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 192.00)$y1"/>
+                <d name="null" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 240.00)$y1"/>
+            </Anchor>
+        </equipment>
+        <equipment id="2a" statusNums="2">
+            <children>
+                <g id="2b" status="0">
+                    <children>
+                        <r id="2c" x="#set($x1 = $x + 48.00)$x1" y="#set($y1 = $y + 264.00)$y1" w="48" h="48">
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <null/>
+                                </strokeColor>
+                            </a>
+                        </r>
+                        <b id="2d">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 264.25)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 279.25)$y1"/>
+                            </points>
+                        </b>
+                        <b id="2e">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 297.25)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 312.00)$y1"/>
+                            </points>
+                        </b>
+                        <g id="2f">
+                            <children>
+                                <b id="30">
+                                    <points>
+                                        <p colinear="true" x="#set($x1 = $x + 68.00)$x1" y="#set($y1 = $y + 275.25)$y1"/>
+                                        <p colinear="true" x="#set($x1 = $x + 76.00)$x1" y="#set($y1 = $y + 282.75)$y1"/>
+                                    </points>
+                                </b>
+                                <b id="31">
+                                    <points>
+                                        <p colinear="true" x="#set($x1 = $x + 76.00)$x1" y="#set($y1 = $y + 275.25)$y1"/>
+                                        <p colinear="true" x="#set($x1 = $x + 68.00)$x1" y="#set($y1 = $y + 282.75)$y1"/>
+                                    </points>
+                                </b>
+                            </children>
+                        </g>
+                        <b id="32">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 297.25)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 83.00)$x1" y="#set($y1 = $y + 279.25)$y1"/>
+                            </points>
+                        </b>
+                    </children>
+                </g>
+                <g id="33" status="1">
+                    <children>
+                        <r id="34" x="#set($x1 = $x + 48.00)$x1" y="#set($y1 = $y + 264.00)$y1" w="48" h="48">
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <null/>
+                                </strokeColor>
+                            </a>
+                        </r>
+                        <b id="35">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 264.00)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 279.25)$y1"/>
+                            </points>
+                        </b>
+                        <b id="36">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 297.25)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 312.00)$y1"/>
+                            </points>
+                        </b>
+                        <g id="37">
+                            <children>
+                                <b id="38">
+                                    <points>
+                                        <p colinear="true" x="#set($x1 = $x + 68.00)$x1" y="#set($y1 = $y + 275.25)$y1"/>
+                                        <p colinear="true" x="#set($x1 = $x + 76.00)$x1" y="#set($y1 = $y + 282.75)$y1"/>
+                                    </points>
+                                </b>
+                                <b id="39">
+                                    <points>
+                                        <p colinear="true" x="#set($x1 = $x + 76.00)$x1" y="#set($y1 = $y + 275.25)$y1"/>
+                                        <p colinear="true" x="#set($x1 = $x + 68.00)$x1" y="#set($y1 = $y + 282.75)$y1"/>
+                                    </points>
+                                </b>
+                            </children>
+                        </g>
+                        <b id="3a">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 297.25)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 279.25)$y1"/>
+                            </points>
+                        </b>
+                    </children>
+                </g>
+            </children>
+            <Label>
+                <lb id="3b" x="#set($x1 = $x + 5.33)$x1" y="#set($y1 = $y + 264.00)$y1">
+                    <a>
+                        <text>
+                            <string>&#x65ad;&#x8def;&#x5668;2</string>
+                        </text>
+                    </a>
+                </lb>
+            </Label>
+            <a>
+                <type>
+                    <string>CBR</string>
+                </type>
+                <mType>
+                    <string>CBR</string>
+                </mType>
+                <xpath>
+                    <string>/ConductingEquipment[@name=&apos;&#x65ad;&#x8def;&#x5668;2&apos;]</string>
+                </xpath>
+                <name>
+                    <string>&#x65ad;&#x8def;&#x5668;2</string>
+                </name>
+            </a>
+            <Anchor>
+                <d name="null" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 264.00)$y1"/>
+                <d name="null" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 312.00)$y1"/>
+            </Anchor>
+        </equipment>
+        <equipment id="3c" statusNums="2">
+            <children>
+                <g id="3d" status="0">
+                    <children>
+                        <r id="3e" x="#set($x1 = $x + 120.00)$x1" y="#set($y1 = $y + 72.00)$y1" w="48" h="48">
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <null/>
+                                </strokeColor>
+                            </a>
+                        </r>
+                        <b id="3f">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 138.25)$x1" y="#set($y1 = $y + 84.25)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 149.75)$x1" y="#set($y1 = $y + 84.25)$y1"/>
+                            </points>
+                        </b>
+                        <b id="40">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 144.00)$x1" y="#set($y1 = $y + 72.25)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 144.00)$x1" y="#set($y1 = $y + 84.25)$y1"/>
+                            </points>
+                        </b>
+                        <b id="41">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 144.25)$x1" y="#set($y1 = $y + 98.00)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 144.00)$x1" y="#set($y1 = $y + 109.50)$y1"/>
+                            </points>
+                        </b>
+                        <b id="42">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 144.25)$x1" y="#set($y1 = $y + 98.00)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 156.25)$x1" y="#set($y1 = $y + 87.00)$y1"/>
+                            </points>
+                        </b>
+                        <b id="43">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 136.25)$x1" y="#set($y1 = $y + 109.75)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 153.25)$x1" y="#set($y1 = $y + 109.75)$y1"/>
+                            </points>
+                        </b>
+                        <b id="44">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 138.25)$x1" y="#set($y1 = $y + 114.75)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 150.25)$x1" y="#set($y1 = $y + 114.75)$y1"/>
+                            </points>
+                        </b>
+                        <b id="45">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 140.25)$x1" y="#set($y1 = $y + 119.25)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 147.25)$x1" y="#set($y1 = $y + 119.25)$y1"/>
+                            </points>
+                        </b>
+                    </children>
+                </g>
+                <g id="46" status="1">
+                    <children>
+                        <r id="47" x="#set($x1 = $x + 120.00)$x1" y="#set($y1 = $y + 72.00)$y1" w="48" h="48">
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <null/>
+                                </strokeColor>
+                            </a>
+                        </r>
+                        <b id="48">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 138.25)$x1" y="#set($y1 = $y + 84.25)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 149.75)$x1" y="#set($y1 = $y + 84.25)$y1"/>
+                            </points>
+                        </b>
+                        <b id="49">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 144.00)$x1" y="#set($y1 = $y + 72.25)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 144.00)$x1" y="#set($y1 = $y + 84.25)$y1"/>
+                            </points>
+                        </b>
+                        <b id="4a">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 144.25)$x1" y="#set($y1 = $y + 98.00)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 144.00)$x1" y="#set($y1 = $y + 109.50)$y1"/>
+                            </points>
+                        </b>
+                        <b id="4b">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 144.25)$x1" y="#set($y1 = $y + 98.00)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 144.25)$x1" y="#set($y1 = $y + 87.00)$y1"/>
+                            </points>
+                        </b>
+                        <b id="4c">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 136.25)$x1" y="#set($y1 = $y + 109.75)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 153.25)$x1" y="#set($y1 = $y + 109.75)$y1"/>
+                            </points>
+                        </b>
+                        <b id="4d">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 138.25)$x1" y="#set($y1 = $y + 114.75)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 150.25)$x1" y="#set($y1 = $y + 114.75)$y1"/>
+                            </points>
+                        </b>
+                        <b id="4e">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 140.25)$x1" y="#set($y1 = $y + 119.25)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 147.25)$x1" y="#set($y1 = $y + 119.25)$y1"/>
+                            </points>
+                        </b>
+                    </children>
+                </g>
+            </children>
+            <Label>
+                <lb id="4f" x="#set($x1 = $x + 96.00)$x1" y="#set($y1 = $y + 129.30)$y1">
+                    <a>
+                        <text>
+                            <string>&#x63a5;&#x5730;&#x5200;&#x95f8;1</string>
+                        </text>
+                    </a>
+                </lb>
+            </Label>
+            <a>
+                <type>
+                    <string>DDIS</string>
+                </type>
+                <mType>
+                    <string>DIS</string>
+                </mType>
+                <xpath>
+                    <string>/ConductingEquipment[@name=&apos;&#x63a5;&#x5730;&#x5200;&#x95f8;1&apos;]</string>
+                </xpath>
+                <name>
+                    <string>&#x63a5;&#x5730;&#x5200;&#x95f8;1</string>
+                </name>
+            </a>
+            <Anchor>
+                <d name="null" x="#set($x1 = $x + 144.00)$x1" y="#set($y1 = $y + 72.00)$y1"/>
+            </Anchor>
+        </equipment>
+        <equipment id="50" statusNums="1">
+            <children>
+                <g id="51">
+                    <children>
+                        <r id="52" x="#set($x1 = $x + 168.00)$x1" y="#set($y1 = $y + 72.00)$y1" w="48" h="48">
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <null/>
+                                </strokeColor>
+                            </a>
+                        </r>
+                        <b id="53">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 192.00)$x1" y="#set($y1 = $y + 100.00)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 192.00)$x1" y="#set($y1 = $y + 109.00)$y1"/>
+                            </points>
+                        </b>
+                        <r id="54" x="#set($x1 = $x + 187.00)$x1" y="#set($y1 = $y + 82.75)$y1" w="10" h="17.75">
+                            <a>
+                                <fillColor>
+                                    <null/>
+                                </fillColor>
+                                <strokeColor>
+                                    <color rgba="#ff000000"/>
+                                </strokeColor>
+                            </a>
+                        </r>
+                        <b id="55">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 184.50)$x1" y="#set($y1 = $y + 109.50)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 201.50)$x1" y="#set($y1 = $y + 109.50)$y1"/>
+                            </points>
+                        </b>
+                        <b id="56">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 186.50)$x1" y="#set($y1 = $y + 114.50)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 198.50)$x1" y="#set($y1 = $y + 114.50)$y1"/>
+                            </points>
+                        </b>
+                        <b id="57">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 188.50)$x1" y="#set($y1 = $y + 119.50)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 195.50)$x1" y="#set($y1 = $y + 119.50)$y1"/>
+                            </points>
+                        </b>
+                        <l id="58">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 192.00)$x1" y="#set($y1 = $y + 72.00)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 192.00)$x1" y="#set($y1 = $y + 82.25)$y1"/>
+                            </points>
+                        </l>
+                        <l id="59">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 187.00)$x1" y="#set($y1 = $y + 82.75)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 197.00)$x1" y="#set($y1 = $y + 100.50)$y1"/>
+                            </points>
+                        </l>
+                        <l id="5a">
+                            <points>
+                                <p colinear="true" x="#set($x1 = $x + 197.00)$x1" y="#set($y1 = $y + 82.75)$y1"/>
+                                <p colinear="true" x="#set($x1 = $x + 187.00)$x1" y="#set($y1 = $y + 100.50)$y1"/>
+                            </points>
+                        </l>
+                    </children>
+                </g>
+            </children>
+            <Label>
+                <lb id="5b" x="#set($x1 = $x + 168.00)$x1" y="#set($y1 = $y + 129.30)$y1">
+                    <a>
+                        <text>
+                            <string>&#x907f;&#x96f7;&#x5668;1</string>
+                        </text>
+                    </a>
+                </lb>
+            </Label>
+            <a>
+                <type>
+                    <string>SAR</string>
+                </type>
+                <mType>
+                    <string>SAR</string>
+                </mType>
+                <xpath>
+                    <string>/ConductingEquipment[@name=&apos;&#x907f;&#x96f7;&#x5668;1&apos;]</string>
+                </xpath>
+                <name>
+                    <string>&#x907f;&#x96f7;&#x5668;1</string>
+                </name>
+            </a>
+            <Anchor>
+                <d name="null" x="#set($x1 = $x + 192.00)$x1" y="#set($y1 = $y + 72.00)$y1"/>
+            </Anchor>
+        </equipment>
+        <circuit id="5c">
+            <points>
+                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 72.00)$y1" c1x="-197" c1y="-233" c2x="-197" c2y="-233"/>
+                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 48.00)$y1" c1x="-197" c1y="-233" c2x="-197" c2y="-233"/>
+            </points>
+            <startConnector>
+                <equipConnector id="5d" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 72.00)$y1">
+                    <Owner>
+                        <equipment ref="e"/>
+                    </Owner>
+                </equipConnector>
+            </startConnector>
+            <endConnector>
+                <equipConnector id="5e" terminal="null" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 48.00)$y1">
+                    <Owner>
+                        <equipment ref="0"/>
+                    </Owner>
+                </equipConnector>
+            </endConnector>
+        </circuit>
+        <circuit id="5f">
+            <points>
+                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 168.00)$y1" c1x="-197" c1y="-233" c2x="-197" c2y="-233"/>
+                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 192.00)$y1" c1x="-197" c1y="-233" c2x="-197" c2y="-233"/>
+            </points>
+            <startConnector>
+                <equipConnector id="60" terminal="W1" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 168.00)$y1">
+                    <Owner>
+                        <equipment ref="e"/>
+                    </Owner>
+                </equipConnector>
+            </startConnector>
+            <endConnector>
+                <equipConnector id="61" terminal="null" x="#set($x1 = $x + 96.00)$x1" y="#set($y1 = $y + 216.00)$y1">
+                    <Owner>
+                        <equipment ref="1c"/>
+                    </Owner>
+                </equipConnector>
+            </endConnector>
+        </circuit>
+        <circuit id="62">
+            <points>
+                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 240.00)$y1" c1x="-197" c1y="-233" c2x="-197" c2y="-233"/>
+                <p colinear="true" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 264.00)$y1" c1x="-197" c1y="-233" c2x="-197" c2y="-233"/>
+            </points>
+            <startConnector>
+                <equipConnector id="63" terminal="null" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 240.00)$y1">
+                    <Owner>
+                        <equipment ref="1c"/>
+                    </Owner>
+                </equipConnector>
+            </startConnector>
+            <endConnector>
+                <equipConnector id="64" x="#set($x1 = $x + 72.00)$x1" y="#set($y1 = $y + 264.00)$y1">
+                    <Owner>
+                        <equipment ref="2a"/>
+                    </Owner>
+                </equipConnector>
+            </endConnector>
+        </circuit>
+        <circuit id="65">
+            <points>
+                <p colinear="true" x="#set($x1 = $x + 192.00)$x1" y="#set($y1 = $y + 72.00)$y1" c1x="0" c1y="0" c2x="0" c2y="0"/>
+                <p colinear="true" x="#set($x1 = $x + 96.00)$x1" y="#set($y1 = $y + 72.00)$y1" c1x="0" c1y="0" c2x="0" c2y="0"/>
+            </points>
+            <startConnector>
+                <equipConnector id="66" x="#set($x1 = $x + 192.00)$x1" y="#set($y1 = $y + 72.00)$y1">
+                    <Owner>
+                        <equipment ref="50"/>
+                    </Owner>
+                </equipConnector>
+            </startConnector>
+            <endConnector>
+                <equipConnector id="67" terminal="W1" x="#set($x1 = $x + 96.00)$x1" y="#set($y1 = $y + 72.00)$y1">
+                    <Owner>
+                        <equipment ref="e"/>
+                    </Owner>
+                </equipConnector>
+            </endConnector>
+        </circuit>
+        <circuit id="68">
+            <points>
+                <p colinear="true" x="#set($x1 = $x + 144.00)$x1" y="#set($y1 = $y + 72.00)$y1" c1x="0" c1y="0" c2x="0" c2y="0"/>
+                <p colinear="true" x="#set($x1 = $x + 144.00)$x1" y="#set($y1 = $y + 72.00)$y1" c1x="0" c1y="0" c2x="0" c2y="0"/>
+            </points>
+            <startConnector>
+                <equipConnector id="69" x="#set($x1 = $x + 144.00)$x1" y="#set($y1 = $y + 72.00)$y1">
+                    <Owner>
+                        <equipment ref="3c"/>
+                    </Owner>
+                </equipConnector>
+            </startConnector>
+            <endConnector>
+                <circuitConnector id="6a" x="#set($x1 = $x + 153.60)$x1" y="#set($y1 = $y + 72.00)$y1">
+                    <Owner>
+                        <circuit ref="65"/>
+                    </Owner>
+                </circuitConnector>
+            </endConnector>
+            <a>
+                <endDecoration>
+                    <connectNode id="6b" isFilled="true" isStroked="false" isSolid="true"/>
+                </endDecoration>
+            </a>
+        </circuit>
+        <lb ref="d"/>
+        <lb ref="1b"/>
+        <lb ref="29"/>
+        <lb ref="3b"/>
+        <lb ref="4f"/>
+        <lb ref="5b"/>
+    </figures>
+</drawing>

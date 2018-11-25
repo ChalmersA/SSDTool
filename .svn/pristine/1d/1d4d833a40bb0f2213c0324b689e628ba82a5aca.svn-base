@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<drawing> 
+  <figures> 
+    <equipment id="0"> 
+      <children> 
+        <g id="1"> 
+          <children> 
+            <l id="2"> 
+              <points> 
+                <p colinear="true" x="#set($x1 = $x + 24.00)$x1" y="#set($y1 = $y + 0.25)$y1"/>  
+                <p colinear="true" x="#set($x1 = $x + 24.00)$x1" y="#set($y1 = $y + 38.00)$y1"/> 
+              </points>  
+              <a> 
+                <fillColor> 
+                  <null/> 
+                </fillColor>  
+                <textColor> 
+                  <color rgba="#ff000000"/> 
+                </textColor>  
+                <strokeColor> 
+                  <color rgba="#ff000000"/> 
+                </strokeColor> 
+              </a> 
+            </l>  
+            <b id="3"> 
+              <points closed="true"> 
+                <p colinear="true" x="#set($x1 = $x + 20.50)$x1" y="#set($y1 = $y + 38.25)$y1"/>  
+                <p colinear="true" x="#set($x1 = $x + 27.25)$x1" y="#set($y1 = $y + 38.25)$y1"/>  
+                <p colinear="true" x="#set($x1 = $x + 24.00)$x1" y="#set($y1 = $y + 47.00)$y1"/> 
+              </points>  
+              <a> 
+                <closed> 
+                  <boolean>true</boolean> 
+                </closed>  
+                <fillColor> 
+                  <color rgba="#ff000000"/> 
+                </fillColor>  
+                <textColor> 
+                  <null/> 
+                </textColor>  
+                <strokeColor> 
+                  <color rgba="#ff000000"/> 
+                </strokeColor> 
+              </a> 
+            </b>  
+            <r id="4" x="#set($x1 = $x + 0.00)$x1" y="#set($y1 = $y + 0.00)$y1" w="48" h="48"> 
+              <a> 
+                <fillColor> 
+                  <null/> 
+                </fillColor>  
+                <textColor> 
+                  <null/> 
+                </textColor>  
+                <strokeColor> 
+                  <null/> 
+                </strokeColor> 
+              </a> 
+            </r> 
+          </children> 
+        </g>  
+      </children>
+      <a>
+      	<type>
+            <string>IFL</string>
+        </type>
+		<mType>
+            <string>IFL</string>
+        </mType>
+      </a>
+      <Anchor>
+         <d0 relativeWidth="1" relativeHeight="0" name="null"/>
+     </Anchor>
+      	<Label>
+      	<lb ref="5"/>
+      </Label> 
+    </equipment>
+    <lb id="5" x="#set($x1 = $x + 0.00)$x1" y="#set($y1 = $y - 16)$y1"> 
+          <a> 
+            <text> 
+              <string>$name</string> 
+            </text> 
+          </a> 
+        </lb> 
+  </figures> 
+</drawing>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--W3C Schema 由 XMLSpy v2006 U 创建 (http://www.altova.com)-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="ExtRef">
+		<xs:complexType>
+			<xs:attribute name="outAddr" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="主变${d}_失灵联跳变压器"/>
+						<xs:enumeration value="分段1_启动失灵"/>
+						<xs:enumeration value="分段2_启动失灵"/>
+						<xs:enumeration value="启动A相失灵"/>
+						<xs:enumeration value="启动B相失灵"/>
+						<xs:enumeration value="启动C相失灵"/>
+						<xs:enumeration value="启动失灵"/>
+						<xs:enumeration value="启动高压1侧断路器失灵"/>
+						<xs:enumeration value="启动高压侧失灵"/>
+						<xs:enumeration value="支路${d}_保护跳闸"/>
+						<xs:enumeration value="跳中压侧分段"/>
+						<xs:enumeration value="跳高压侧母联1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="intAddr" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="中压侧失灵联跳开入"/>
+						<xs:enumeration value="主变${d}_三相启动失灵开入${n}"/>
+						<xs:enumeration value="保护跳闸-${d}"/>
+						<xs:enumeration value="其它保护动作-1"/>
+						<xs:enumeration value="分段${d}_三相启动失灵开入"/>
+						<xs:enumeration value="分段1_对侧失灵开入"/>
+						<xs:enumeration value="分段2_对侧失灵开入"/>
+						<xs:enumeration value="支路${d}_A相启动失灵开入"/>
+						<xs:enumeration value="支路${d}_B相启动失灵开入"/>
+						<xs:enumeration value="支路${d}_C相启动失灵开入"/>
+						<xs:enumeration value="支路${d}_三相启动失灵开入"/>
+						<xs:enumeration value="母联_三相启动失灵开入"/>
+						<xs:enumeration value="闭锁重合闸-1"/>
+						<xs:enumeration value="高压1侧失灵联跳开入"/>
+						<xs:enumeration value="高压侧失灵联跳开入"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="IED">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Inputs" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="type" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="PE_11"/>
+						<xs:enumeration value="PE_22"/>
+						<xs:enumeration value="PL_11"/>
+						<xs:enumeration value="PL_22"/>
+						<xs:enumeration value="PMA11"/>
+						<xs:enumeration value="PMA22"/>
+						<xs:enumeration value="PMD11"/>
+						<xs:enumeration value="PMD22"/>
+						<xs:enumeration value="PT_11"/>
+						<xs:enumeration value="PT_22"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="desc" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="110变压器虚端子"/>
+						<xs:enumeration value="110母线虚端子"/>
+						<xs:enumeration value="110母联虚端子"/>
+						<xs:enumeration value="110线路虚端子"/>
+						<xs:enumeration value="220变压器虚端子"/>
+						<xs:enumeration value="220母线虚端子"/>
+						<xs:enumeration value="220母联虚端子"/>
+						<xs:enumeration value="220线路虚端子"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="groupMax">
+				<xs:simpleType>
+					<xs:restriction base="xs:byte">
+						<xs:enumeration value="7"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Inputs">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ExtRef" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="iedType" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="PE_11"/>
+						<xs:enumeration value="PE_22"/>
+						<xs:enumeration value="PF_11"/>
+						<xs:enumeration value="PF_22"/>
+						<xs:enumeration value="PL_11"/>
+						<xs:enumeration value="PL_22"/>
+						<xs:enumeration value="PMA11"/>
+						<xs:enumeration value="PMA22"/>
+						<xs:enumeration value="PMD11"/>
+						<xs:enumeration value="PMD22"/>
+						<xs:enumeration value="PT_11"/>
+						<xs:enumeration value="PT_22"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="desc" type="xs:string" use="required"/>
+			<xs:attribute name="ldInst" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="PIGO"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="datSet" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="dsGoose"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="maxN">
+				<xs:simpleType>
+					<xs:restriction base="xs:byte">
+						<xs:enumeration value="2"/>
+						<xs:enumeration value="28"/>
+						<xs:enumeration value="4"/>
+						<xs:enumeration value="6"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="groupMax">
+				<xs:simpleType>
+					<xs:restriction base="xs:byte">
+						<xs:enumeration value="7"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Relations">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="IED" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
