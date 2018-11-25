@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:dummy="http://www.dummy.ch" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.dummy.ch" elementFormDefault="qualified" attributeFormDefault="unqualified">
-	<xs:element name="Dummy" type="dummy:tDummy"/>
-	<xs:complexType name="tDummy">
-		<xs:attribute name="a" type="xs:normalizedString" use="required"/>
-		<xs:attribute name="b" type="xs:boolean" use="optional" default="false"/>
-	</xs:complexType>
-</xs:schema>
